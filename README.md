@@ -94,7 +94,7 @@ GET https://cloud-computing-capsule-acc.rj.r.appspot.com/api/courses/document/do
 1&filename=Primer PDF Curso 1.pdf
 ```
 
-# Eliminación de Información
+## Eliminación de Información
 
 Puedes borrar archivos PDF individuales de la lista de documentos de un curso. Esto eliminará tanto
 los registros de la base de datos como los archivos del Storage de Google:
