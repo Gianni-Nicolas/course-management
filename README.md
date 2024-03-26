@@ -110,3 +110,29 @@ del Storage de Google:
 ```
 DELETE https://cloud-computing-capsule-acc.rj.r.appspot.com/api/courses?name=Curso 1
 ```
+
+# Despliegue en Google Cloud Platform (GCP) con App Engine
+
+La aplicación, denominada **course-management**, está desplegada en Google Cloud a través de App
+Engine, los pasos realizados fueron:
+
+1. ***Preparación del entorno de desarrollo:*** Asegúrate de tener tu aplicación Java lista para ser
+   desplegada, incluyendo la compilación y empaquetado en un archivo JAR o WAR.
+
+2. ***Configuración de Google Cloud SDK:*** Instala y configura el Google Cloud SDK en tu máquina
+   local, autenticándote en tu cuenta de Google Cloud y seleccionando el proyecto correcto.
+
+3. ***Configuración del archivo app.yaml:*** Define la configuración de tu aplicación en el archivo
+   app.yaml, especificando detalles como el tipo de entorno, la versión de Java y otras opciones de
+   configuración.
+
+4. ***Ejecución del comando gcloud app deploy:*** Navega hasta el directorio raíz de tu proyecto y
+   ejecuta el comando ***"gcloud app deploy"*** en tu terminal para iniciar el proceso de despliegue
+   en App Engine.
+
+5. ***Espera a que termine el despliegue:*** Google Cloud desplegará tu aplicación en sus servidores
+   y realizará todas las configuraciones necesarias. Este proceso puede tardar algunos minutos.
+
+6. ***Verificación del despliegue:*** Una vez completado el despliegue, verifica que tu aplicación
+   esté funcionando correctamente accediendo a la URL proporcionada por Google Cloud para tu
+   aplicación desplegada.
